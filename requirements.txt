@@ -1,6 +1,6 @@
 # --- Streamlit & Web
 streamlit==1.36.0
-Pillow==9.4.0
+Pillow==9.5.0
 rich==14.1.0
 
 # --- PyTorch CPU-Compatible
@@ -43,4 +43,4 @@ markdown-it-py==3.0.0
 mdurl==0.1.2
 pygments==2.19.2
 PyYAML==6.0.2
-tzdata==20
+tzdata==2023.3
