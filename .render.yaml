@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: lungguard
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run LungGuard_Home.py
+    runtime: python
+    pythonVersion: 3.11.9
