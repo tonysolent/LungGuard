@@ -1,4 +1,4 @@
-# 🫁 LungGuard – A Multimodal Deep Learning System for Early Lung Cancer Detection
+#  LungGuard – A Multimodal Deep Learning System for Early Lung Cancer Detection
 
 **LungGuard** is an MSc Applied AI & Data Science dissertation project that develops a **multimodal AI system** integrating:
 
