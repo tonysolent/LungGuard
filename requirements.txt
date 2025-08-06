@@ -1,16 +1,16 @@
-# --- Core Framework ---
+# --- Streamlit & Web
 streamlit==1.36.0
-Pillow==9.5.0
+Pillow==9.4.0
 rich==14.1.0
 
-# --- PyTorch CPU (no +cu118) ---
+# --- PyTorch CPU-Compatible
 torch==2.3.1
 torchvision==0.18.1
 torchaudio==2.3.1
 torchcam==0.4.0
 captum==0.8.0
 
-# --- Data Science ---
+# --- Data Science Core
 numpy==1.26.4
 pandas==2.3.1
 scikit-learn==1.5.0
@@ -19,28 +19,28 @@ seaborn==0.13.2
 plotly==6.0.0
 tqdm==4.67.1
 statsmodels==0.14.4
-textblob==0.19.0
 
-# --- NLP + Transformers ---
+# --- NLP & Transformers
 transformers==4.41.2
 huggingface-hub==0.23.4
 tokenizers==0.19.1
 nltk==3.9.1
+textblob==0.19.0
 
-# --- Explainability + Imaging ---
+# --- Explainability & Imaging
 shap==0.46.0
 pydicom==3.0.1
 wordcloud==1.9.4
 
-# --- Utilities + Streamlit deps ---
+# --- Other Web Dependencies
 requests==2.32.4
+validators==0.22.0
+click==8.1.3
+itsdangerous==2.1.2
+Werkzeug==2.3.4
+Jinja2==3.1.2
 markdown-it-py==3.0.0
 mdurl==0.1.2
 pygments==2.19.2
-validators==0.22.0
-Werkzeug==2.3.4
-click==8.1.3
-itsdangerous==2.1.2
-Jinja2==3.1.2
 PyYAML==6.0.2
-tzdata==2023.3
+tzdata==20
