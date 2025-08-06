@@ -10,7 +10,7 @@ to enable **early lung cancer detection** with **explainable AI**.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 - **Multimodal Fusion Architectures**
   - Early, Late, and Hybrid fusion of image, tabular, and text data
@@ -28,7 +28,7 @@ to enable **early lung cancer detection** with **explainable AI**.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 LungGuard/
@@ -56,7 +56,7 @@ LungGuard/
 
 ---
 
-## ⚡ Installation
+##  Installation
 
 1. **Clone Repository**
 ```bash
@@ -78,7 +78,7 @@ streamlit run LungGuard_Home.py
 
 ---
 
-## 🧠 Research Context
+##  Research Context
 
 This project is part of the **MSc Applied AI & Data Science** dissertation (COM726) at **Solent University**, aiming for **early-stage lung cancer detection** using **multimodal fusion** of:
 
@@ -90,7 +90,7 @@ with **explainable AI** to support **clinician trust** and **ethical AI deployme
 
 ---
 
-## 📊 Evaluation
+##  Evaluation
 
 - **Metrics:** Accuracy, Recall, Precision, F1‑Score, AUC  
 - **Explainability:** Grad‑CAM (image), SHAP (tabular/text)  
@@ -98,14 +98,14 @@ with **explainable AI** to support **clinician trust** and **ethical AI deployme
 
 ---
 
-## ⚖️ License
+##  License
 
 For **academic and research purposes only**.  
 All datasets used are **publicly available** and processed for **educational use** in compliance with ethical AI research standards.
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
 - **PyTorch** and **HuggingFace Transformers** for model development  
 - **Streamlit** for building the interactive web dashboard  
