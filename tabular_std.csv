@@ -1,0 +1,15 @@
+,0
+boxes_count,0.6904986837553597
+extra_boxes_count,0.6119062213642645
+locations,1.0401015639436915
+prior_study,0.4677580193732393
+progression_status,1.0
+study_is_benchmark,1.0
+study_is_validation,1.0
+split,1.0
+patient_is_benchmark,1.0
+PatientAge,14.58636954694765
+PatientSex_DICOM,0.50303492923498
+StudyDate,0.8730272390491408
+StudyDate_DICOM,8759.055125687073
+Year,0.8730272390491408
