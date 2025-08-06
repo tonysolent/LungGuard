@@ -114,5 +114,5 @@ All datasets used are **publicly available** and processed for **educational use
 
 ---
 
-© 2025 Tony Livins | MSc Applied AI & Data Science Dissertation Project
+© 2025 Tony Livins | MSc Applied AI & Data Science Dissertation Project | Supervisor- Dr. Kashif Talpur
 
