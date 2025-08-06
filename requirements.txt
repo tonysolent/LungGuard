@@ -1,15 +1,19 @@
+# Core Streamlit & Utils
 streamlit==1.36.0
-Pillow==9.4.0
+requests==2.32.3
+tqdm==4.66.4
+plotly==5.22.0
+textblob==0.19.0
+
+# Data Science Essentials
 numpy==1.26.4
 pandas==2.2.2
 matplotlib==3.9.1
 seaborn==0.13.2
 scikit-learn==1.5.0
-plotly==5.22.0
-tqdm==4.66.4
-requests==2.32.3
+joblib==1.4.2
 
-# PyTorch CPU
+# PyTorch (CPU-Only)
 torch==2.3.1
 torchvision==0.18.1
 torchaudio==2.3.1
@@ -17,11 +21,37 @@ torchcam==0.4.0
 captum==0.7.0
 shap==0.46.0
 
-# NLP
+# NLP / Transformers
 transformers==4.41.2
 huggingface-hub==0.23.4
 tokenizers==0.19.1
+nltk==3.9.1
+regex==2024.11.6
 
-# Utilities
+# Imaging / Medical
 pydicom==3.0.1
-textblob==0.19.0
+Pillow==9.4.0
+opencv-python==4.12.0.88
+
+# Explainability & Visualisation
+altair==5.2.0
+markdown-it-py==3.0.0
+pygments==2.19.2
+mdurl==0.1.2
+rich==14.1.0
+
+# Web / Flask Stack (for optional endpoints or background tasks)
+Flask==2.3.2
+itsdangerous==2.1.2
+Werkzeug==2.3.4
+jinja2==3.1.2
+blinker==1.6.2
+
+# Additional Utils
+yfinance==0.2.54
+filelock==3.13.1
+python-dateutil==2.8.2
+pyyaml==6.0.2
+validators==0.22.0
+importlib-metadata==6.11.0
+zipp==3.17.0
