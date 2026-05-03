@@ -76,6 +76,9 @@ pip install -r requirements.txt
 streamlit run LungGuard_Home.py
 ```
 
+## Live Demo
+[View the live SOLiGence app on Streamlit Cloud] https://tonysolent-lungguard.streamlit.app/
+
 ---
 
 ##  Research Context
