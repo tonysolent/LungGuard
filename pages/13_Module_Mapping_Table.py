@@ -1,11 +1,10 @@
 import streamlit as st
 
-st.set_page_config(page_title="LungGuard Capabilities", layout="wide")
-st.title("🧠 LungGuard – System Capabilities & Built Features")
+st.set_page_config(page_title="LungGuard Feature Alignment", layout="wide")
+st.title("📚 LungGuard Feature Alignment – Individual System Build")
 
 st.markdown("""
-This table presents the **core capabilities, techniques, and real features built in LungGuard**,  
-highlighting the full technical scope of the system as an end-to-end AI solution.
+This table summarises the key concepts, tools, and outcomes demonstrated through the LungGuard artefact, focusing on the **individual features built in the system** rather than module mapping.
 """, unsafe_allow_html=True)
 
 st.markdown("""
@@ -30,155 +29,89 @@ st.markdown("""
 <table>
   <thead>
     <tr>
-      <th>🧩 Capability Area</th>
-      <th>📋 Techniques & Methods Used</th>
+      <th>🧠 Capability Area</th>
+      <th>📋 Techniques & Concepts</th>
       <th>✅ Real Features Built in LungGuard</th>
     </tr>
   </thead>
   <tbody>
-
     <tr>
-      <td><b>Multimodal AI</b></td>
+      <td><b>Artificial Intelligence Foundations</b></td>
       <td>
-        CNNs, DNNs<br>
-        NLP/Text embeddings<br>
-        Feature Fusion
+        - CNNs, DNNs<br>
+        - NLP/Text embeddings<br>
+        - SVM, KNN, Naïve Bayes<br>
+        - Explainable AI (SHAP, Grad-CAM)<br>
+        - Reinforcement Learning (conceptual)<br>
+        - Model Evaluation and Benchmarking
       </td>
       <td>
         CNN for Chest X-rays<br>
         DNN for tabular data<br>
         Clinical Text Embeddings<br>
-        Fusion Model for combined prediction
-      </td>
-    </tr>
-
-    <tr>
-      <td><b>Explainable AI</b></td>
-      <td>
-        SHAP<br>
-        Grad-CAM
-      </td>
-      <td>
-        SHAP for tabular and text explanations<br>
-        Grad-CAM for image visualisation
-      </td>
-    </tr>
-
-    <tr>
-      <td><b>Machine Learning Models</b></td>
-      <td>
-        SVM, KNN, Naïve Bayes<br>
-        Model benchmarking
-      </td>
-      <td>
+        SHAP for tabular/text<br>
+        Grad-CAM for images<br>
         SVM, KNN, Naïve Bayes (Experimental Models)<br>
-        Model Benchmarking Lab with performance metrics
+        RL Concept Page (Simulation Tab)<br>
+        Model Benchmarking Lab with Metrics
       </td>
     </tr>
-
+    <tr>
+      <td><b>Applied AI & Decision Systems</b></td>
+      <td>
+        - Forecasting Models<br>
+        - AI Risk & Bias Audits<br>
+        - Ethical Principles<br>
+        - Societal Simulation<br>
+        - AI for Decision-Making
+      </td>
+      <td>
+        ARIMA Time Series Forecasting<br>
+        BCS Code of Conduct Page<br>
+        Risk/Bias Scanner (Imbalance, Privacy)<br>
+        Societal Impact + Workflow Mapping<br>
+        Real-world Simulation: Patient Stories
+      </td>
+    </tr>
     <tr>
       <td><b>Data Analytics & Visualisation</b></td>
       <td>
-        EDA<br>
-        Correlation analysis<br>
-        Dashboarding
+        - EDA<br>
+        - Dashboarding<br>
+        - Correlation + Outlier Analysis<br>
+        - Visualisation Techniques<br>
+        - Analytical Communication
       </td>
       <td>
-        EDA Page: Missing values and type detection<br>
-        Correlation heatmaps and boxplots<br>
-        Visualisation Gallery: Pie, Radar, Treemap
+        EDA Page: Missing Values, Type Detection<br>
+        Correlation Heatmaps + Boxplots<br>
+        Visualisation Gallery: Pie, Radar, Treemap<br>
+        Benchmarking Radar, ROC, Calibration Plots<br>
+        PDF Report Export
       </td>
     </tr>
-
     <tr>
-      <td><b>Model Evaluation</b></td>
+      <td><b>Software Engineering & System Design</b></td>
       <td>
-        ROC Curves<br>
-        Calibration<br>
-        Performance metrics
+        - Modular Programming<br>
+        - App Deployment<br>
+        - Clustering Techniques<br>
+        - Report Automation<br>
+        - Use of Libraries (matplotlib, pandas, etc.)
       </td>
       <td>
-        ROC curves and calibration plots<br>
-        Benchmarking radar charts<br>
-        AUC and F1 evaluation
-      </td>
-    </tr>
-
-    <tr>
-      <td><b>Forecasting & Simulation</b></td>
-      <td>
-        Time series modelling<br>
-        Scenario simulation
-      </td>
-      <td>
-        ARIMA time series forecasting<br>
-        Societal impact simulation<br>
-        Patient workflow simulation
+        Streamlit App with Modular Pages<br>
+        Python models/, utils/, pages/ structure<br>
+        DBSCAN, Agglomerative, KMeans Clustering<br>
+        PDF Report Generation with ReportLab<br>
+        System Architecture + Audit + Deployment Mapping<br>
+        Reflection Log with SQLite<br>
+        Editable CRUD UI using real-time Streamlit + SQL integration<br>
       </td>
     </tr>
-
-    <tr>
-      <td><b>Ethics & Risk</b></td>
-      <td>
-        Bias detection<br>
-        Ethical frameworks
-      </td>
-      <td>
-        Risk/Bias scanner (imbalance, privacy)<br>
-        BCS Code of Conduct page
-      </td>
-    </tr>
-
-    <tr>
-      <td><b>System Engineering</b></td>
-      <td>
-        Modular programming<br>
-        Deployment architecture
-      </td>
-      <td>
-  Streamlit app with modular pages<br>
-  Python models/, utils/, pages/ structure<br>
-  Checkpoint loading via Google Drive
-</td>
-    </tr>
-
-    <tr>
-      <td><b>Clustering & Advanced Methods</b></td>
-      <td>
-        Unsupervised learning
-      </td>
-      <td>
-        DBSCAN, Agglomerative, KMeans clustering
-      </td>
-    </tr>
-
-    <tr>
-      <td><b>Reporting & Outputs</b></td>
-      <td>
-        Report generation<br>
-        Data export
-      </td>
-      <td>
-        PDF report generation with ReportLab<br>
-        Exportable analytics outputs
-      </td>
-    </tr>
-
-    <tr>
-      <td><b>User Experience</b></td>
-      <td>
-        Interactive UI design
-      </td>
-      <td>
-        Real-time prediction interface<br>
-        File upload and patient selection<br>
-        Interactive dashboards
-      </td>
-    </tr>
-
   </tbody>
 </table>
 """, unsafe_allow_html=True)
 
 st.markdown("---")
-st.caption("© 2025 LungGuard | System Capabilities by Tony Livins")
+st.caption("© 2025 LungGuard | Individual AI System Build and Feature Alignment by Tony Livins")
