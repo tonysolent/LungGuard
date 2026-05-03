@@ -27,6 +27,8 @@ huggingface-hub==0.23.4
 tokenizers==0.19.1
 
 # Utilities
+# Utilities
 pydicom==3.0.1
 textblob==0.19.0
 rich==13.9.4
+gdown==5.2.0
