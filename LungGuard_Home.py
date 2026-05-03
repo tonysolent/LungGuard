@@ -22,7 +22,7 @@ from utils.explainability import run_shap_tabular, run_gradcam, run_shap_text
 from config import TABULAR_FIELDS_14
 from checkpoint_loader import download_and_extract_checkpoints
 
-download_and_extract_checkpoints("1MFlFo4-oF7uZGRPcdf310XwAR9pIMafA")
+download_and_extract_checkpoints("1zcAzzPM2DOpxhfGsf9swYhkygW9MWbQT")
 
 # ========== PAGE AND TITLE ==========
 st.set_page_config(page_title="LungGuard", page_icon="LungGuard Logo.png", layout="wide")
