@@ -136,10 +136,10 @@ st.markdown("""
         Deployment architecture
       </td>
       <td>
-        Streamlit app with modular pages<br>
-        Python `models/`, `utils/`, `pages/` structure<br>
-        Checkpoint loading via Google Drive
-      </td>
+  Streamlit app with modular pages<br>
+  Python models/, utils/, pages/ structure<br>
+  Checkpoint loading via Google Drive
+</td>
     </tr>
 
     <tr>
